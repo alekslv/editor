@@ -1,0 +1,62 @@
+{
+  "name": "editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.19.0",
+    "canvas-to-image": "^2.2.0",
+    "core-js": "^3.7.0",
+    "fabric": "^4.2.0",
+    "file-saver": "^2.0.5",
+    "font-picker-vue": "^1.0.3",
+    "fontfaceobserver": "^2.1.0",
+    "mobile-detect": "^1.4.4",
+    "mobile-device-detect": "^0.4.3",
+    "vue": "^2.6.12",
+    "vue-loading-overlay": "^3.4.2",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.9",
+    "@vue/cli-plugin-eslint": "^4.5.9",
+    "@vue/cli-plugin-router": "^4.5.9",
+    "@vue/cli-service": "^4.5.9",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "vue/no-use-v-if-with-v-for": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
